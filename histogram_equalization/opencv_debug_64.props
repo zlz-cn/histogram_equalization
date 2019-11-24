@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <ExecutablePath>D:\opencv\opencv_build\install\x64\vc16\bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>D:\cj\boost_1_71_0\boost;D:\opencv\opencv_build\install\include\opencv2;D:\opencv\opencv_build\install\include\opencv;D:\opencv\opencv_build\install\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\cj\boost_1_71_0\stage\lib;D:\opencv\opencv_build\install\x64\vc16\lib;D:\opencv\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>opencv_img_hash347d.lib;opencv_world347d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\cj\boost_1_71_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
